@@ -1,4 +1,3 @@
-services:
-  include:
-    - path: ./radarr/docker-compose.yml
-    - path: ./nginx-proxy-manager/docker-compose.yml
+include:
+  - path: ./radarr/docker-compose.yml
+  - path: ./nginx-proxy-manager/docker-compose.yml
