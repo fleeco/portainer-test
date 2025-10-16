@@ -1,3 +1,4 @@
 include:
   - path: ./radarr/docker-compose.yml
   - path: ./nginx-proxy-manager/docker-compose.yml
+  - path: ./jellyfin/docker-compose.yml
